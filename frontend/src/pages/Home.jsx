@@ -68,11 +68,11 @@ const Home = () => {
 
                                     </Link>
                                     <Link to={`/books/edit/${book._id}`}>
-                                        <BsInfoCircle className='text-2x1 text-yellow-600'/>
+                                        <AiOutlineEdit className='text-2x1 text-yellow-600'/>
 
                                     </Link>
                                     <Link to={`/books/delete/${book._id}`}>
-                                        <BsInfoCircle className='text-2x1 text-red-600'/>
+                                        <MdOutlineDelete className='text-2x1 text-red-600'/>
 
                                     </Link>
                                 </div>
